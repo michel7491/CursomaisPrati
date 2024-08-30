@@ -21,3 +21,11 @@
 
 // showFunction(successCallback,errorCallback)
 
+
+
+// inverter uma String
+// contar vogais
+// gerar numero aleatorio
+// dias entre duas Datas
+// formatar data
+
