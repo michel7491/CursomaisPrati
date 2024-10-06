@@ -1,11 +1,5 @@
  const prompt = require('prompt-sync')()
 
-
-
-//oi
-
-
-
 // let counter=0
 // let multiplier = Number(prompt( 'informe o numero : '))
 
