@@ -8,6 +8,7 @@ titulo: 'As Cronicas de Fogo e Gelo',
 autor: 'George R. R. Martin',
 anoPulblicacao: '1996',
 genero: 'Fantasia',
+//editora:'exemplo'
 }
 let possuiEditora = false
 for(let propriedade in livro) {
