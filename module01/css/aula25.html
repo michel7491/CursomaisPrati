@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="aula25.css" />
+  </head>
+  <body>
+    <form>
+      <h1>E-Comerce Daniela & Estilo</h1>
+
+      <label for="nome">Nome Completo:</label>
+      <input
+        type="text"
+        id="nome"
+        name="nome"
+        placeholder="Digite aqui seu nome"
+      />
+
+      <label for="email">Digite seu E-mail:</label>
+      <input
+        type="text"
+        id="email"
+        name="email"
+        placeholder="Exemplo@gmail.com"
+      />
+
+      <label for="senha">Digite sua senha:</label>
+      <input
+        type="password"
+        id="senha"
+        name="senha"
+        placeholder="digite sua senha"
+      />
+      <br />
+      <label for="pais">País:</label>
+      <select name="pais" id="pais">
+        <option value="brasil">Brasil</option>
+        <option value="argentina">Argentina</option>
+        <option value="uruguai">Uruguai</option>
+        <option value="paraguai">Paraguai</option>
+        <option value="chile">Chile</option>
+        <option value="venezuela">Venezuela</option>
+        <option value="colombia">Colombia</option>
+      </select>
+      <br />
+      <p>
+      Gênero:
+      <br>
+        Masculino<input type="radio" name="citizenship" /><br />
+        Feminino<input type="radio" name="citizenship" /><br />
+        Outro<input type="radio" name="citizenship" /><br />
+      </p>
+<fieldset>
+    <input type="checkbox" id="termos-serviço" name="termos-serviço" value="termos-serviço" ><label class="inline-label" for="termos-serviço">Eu Aceito os Termos de Serviço </label><br>
+</fieldset>
+<button type="submit">Cadastrar</button>
+    </form>
+  </body>
+</html>

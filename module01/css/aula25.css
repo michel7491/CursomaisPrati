@@ -1,0 +1,44 @@
+form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 2px;
+    border-radius: 10px;
+    background-color:aqua;
+    font-family: Arial, Helvetica, sans-serif,bolder;
+    
+}
+h1
+{
+    text-align: left;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+label{
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    font-style: italic;
+}
+.inline-label{
+    display: inline;
+}
+input, select {
+
+    padding: 10px;
+    background-color:white;
+    margin-top: 10px;
+    border: 1px solid;
+    box-sizing: border-box;
+    border-radius: 5px;
+    
+}
+button:hover{
+background-color:red;    
+}
+fieldset{
+    margin-top: 20px;
+}
+button{
+    margin-top: 25px;
+}
