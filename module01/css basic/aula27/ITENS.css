@@ -1,0 +1,36 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: antiquewhite;
+    padding: 100px;
+    
+}
+h1{
+    color: forestgreen;
+    text-align: center;
+
+}
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: gray;
+    border-radius: 10px;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color:red;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+ul li{
+    background-color: gray;
+    margin: 10px;
+    padding: 5;
+    border: 5px;
+}
+ul li:nth-child(even){
+    background-color: azure;
+}
